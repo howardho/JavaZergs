@@ -6,6 +6,7 @@ class Zergs {
         Larva l = new Larva();
         Zerg z = l.spawn(Larva.ULTRALISK);
         System.out.println(z);
+        System.out.println("Game ended");
     }
 }
 
